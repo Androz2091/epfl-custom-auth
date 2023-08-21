@@ -30,7 +30,7 @@ Response:
 }
 ```
 
-AuthStatus est 'success' | 'failed'.
+AuthStatus est 'success' | 'failed'.  
 AuthId est l'identifiant de l'authentification en cours.
 
 ### Valider une authentification
@@ -47,7 +47,7 @@ Response:
 }
 ```
 
-AuthConfirmStatus est 'confirmed' | 'failed'.
+AuthConfirmStatus est 'confirmed' | 'failed'.  
 AuthToken est une chaîne de caractère servant à prouver au serveur que le compte a bien été validé par l'utilisateur.
 
 ### Vérifier une authentification
