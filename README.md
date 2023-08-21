@@ -1,6 +1,6 @@
 # EPFL Tools Custom Auth (ETCA)
 
-Certains services créés par les étudiants (donc non officiels) ont besoin de vérifier qu'un utilisateur est bien un étudiant de l'EPFL.
+Certains services créés par les étudiants (donc non officiels) ont besoin de vérifier qu'un utilisateur est bien un étudiant de l'EPFL, et par exemple dans une section spécifique.
 
 Or, Tequila (le service d'authentification fédéral utilisé par l'EPFL) ne supporte que les services officiels.
 
@@ -17,7 +17,7 @@ Or, Tequila (le service d'authentification fédéral utilisé par l'EPFL) ne sup
 
 URL: https://etca.epfl.tools
 
-### Commencer une authentification
+### Débuter une authentification
 
 * `POST /auth?mail=john.doe@epfl.ch`
 
