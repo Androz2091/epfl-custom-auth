@@ -26,12 +26,23 @@ Response:
 {
     "authId": AuthId,
     "status": AuthStatus,
-    "email": "john.doe@epfl.ch"
+    "email": "john.doe@epfl.ch",
+    "profile: AuthProfile
 }
 ```
 
 AuthStatus est 'success' | 'failed'.  
 AuthId est l'identifiant de l'authentification en cours.
+AuthProfile est null | les données de profil de l'utilisateur :
+```json
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "type": "student",
+    "course": "GM-BA5",
+    "email": "john.doe@epfl.ch"
+}
+```
 
 ### Valider une authentification
 
@@ -58,11 +69,5 @@ Maintenant côté serveur, avant d'ajouter une entrée dans la base de données 
 
 Response:
 ```json
-{
-    "firstName": "John",
-    "lastName": "Doe",
-    "type": "student",
-    "course": "GM-BA5",
-    "email": "john.doe@epfl.ch"
-}
+AuthProfile
 ```
