@@ -27,7 +27,7 @@ Response:
     "authId": AuthId,
     "status": AuthStatus,
     "email": "john.doe@epfl.ch",
-    "profile: AuthProfile
+    "profile": AuthProfile
 }
 ```
 
