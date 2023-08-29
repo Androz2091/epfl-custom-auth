@@ -2,6 +2,16 @@
 
 # ARCHIVED PROJECT, PLEASE USE [VODKA](https://github.com/epfl-tools/vodka)
 
+
+
+
+
+
+
+
+
+
+
 Certains services créés par les étudiants (donc non officiels) ont besoin de vérifier qu'un utilisateur est bien un étudiant de l'EPFL, et par exemple dans une section spécifique.
 
 Or, Tequila (le service d'authentification fédéral utilisé par l'EPFL) ne supporte que les services officiels.
